@@ -141,9 +141,9 @@
                         <div class="col-lg-10">
                             <select name="display" class="form-control" required>
                                 <option value="standalone" {{ ($pwa->data['manifest']['display'] == 'standalone') ? 'selected=selected': false }}>Standalone</option>
-                                <option value="fullscreen" {{ ($pwa->data['manifest']['display'] == 'fullscreen') ? 'selected=selected': false }} disabled="disabled">Fullscreen</option>
-                                <option value="minimal-ui" {{ ($pwa->data['manifest']['display'] == 'minimal-ui') ? 'selected=selected': false }} disabled="disabled">Minimal UI</option>
-                                <option value="browser" {{ ($pwa->data['manifest']['display'] == 'browser') ? 'selected=selected': false }} disabled="disabled">Browser</option>
+                                <option value="fullscreen" {{ ($pwa->data['manifest']['display'] == 'fullscreen') ? 'selected=selected': false }}>Fullscreen</option>
+                                <option value="minimal-ui" {{ ($pwa->data['manifest']['display'] == 'minimal-ui') ? 'selected=selected': false }}">Minimal UI</option>
+                                <option value="browser" {{ ($pwa->data['manifest']['display'] == 'browser') ? 'selected=selected': false }}>Browser</option>
                             </select>
                             <p class="mt-3">For more details <a href="https://web.dev/add-manifest/#display">click here</a></p>
                         </div>
